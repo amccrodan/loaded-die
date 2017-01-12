@@ -4,10 +4,10 @@ var loadedDie = (function () {
 
   return function () {
     i += 1;
-    return list[i-1];
-  }
+    return list[i - 1];
+  };
 
-})();
+}());
 
 console.log(loadedDie());  // 5
 console.log(loadedDie());  // 4
